@@ -1,0 +1,249 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "defs": {
+    "gh_canvas_default": "#0d1117",
+    "gh_canvas_inset": "#010409",
+    "gh_canvas_subtle": "#161b22",
+    "gh_fg_default": "#e6edf3",
+    "gh_fg_muted": "#7d8590",
+    "gh_fg_subtle": "#6e7681",
+    "gh_border_default": "#30363d",
+    "gh_border_muted": "#21262d",
+    "gh_accent_fg": "#2f81f7",
+    "gh_accent_emphasis": "#1f6feb",
+    "gh_accent_subtle": "#388bfd26",
+    "gh_success_fg": "#3fb950",
+    "gh_success_emphasis": "#238636",
+    "gh_attention_fg": "#d29922",
+    "gh_attention_emphasis": "#9e6a03",
+    "gh_danger_fg": "#f85149",
+    "gh_danger_emphasis": "#da3633",
+    "gh_severe_fg": "#db6d28",
+    "gh_neutral_muted": "#6e768166",
+    "gh_neutral_subtle": "#6e76811a",
+    "gh_blue_1": "#a5d6ff",
+    "gh_blue_2": "#79c0ff",
+    "gh_blue_3": "#58a6ff",
+    "gh_green_1": "#7ee787",
+    "gh_green_2": "#56d364",
+    "gh_green_3": "#3fb950",
+    "gh_yellow_1": "#e3b341",
+    "gh_yellow_2": "#d29922",
+    "gh_orange_1": "#ffa657",
+    "gh_orange_2": "#f0883e",
+    "gh_red_1": "#ffa198",
+    "gh_red_2": "#ff7b72",
+    "gh_purple_1": "#d2a8ff",
+    "gh_purple_2": "#bc8cff",
+    "gh_pink_1": "#ff9bce",
+    "gh_gray_1": "#8b949e",
+    "gh_gray_2": "#484f58",
+    "gh_white": "#ffffff"
+  },
+  "theme": {
+    "primary": {
+      "dark": "gh_accent_emphasis",
+      "light": "gh_accent_emphasis"
+    },
+    "secondary": {
+      "dark": "gh_accent_fg",
+      "light": "gh_accent_fg"
+    },
+    "accent": {
+      "dark": "gh_accent_fg",
+      "light": "gh_accent_fg"
+    },
+    "error": {
+      "dark": "gh_danger_fg",
+      "light": "gh_danger_fg"
+    },
+    "warning": {
+      "dark": "gh_attention_fg",
+      "light": "gh_attention_fg"
+    },
+    "success": {
+      "dark": "gh_success_fg",
+      "light": "gh_success_fg"
+    },
+    "info": {
+      "dark": "gh_accent_fg",
+      "light": "gh_accent_fg"
+    },
+    "text": {
+      "dark": "gh_fg_default",
+      "light": "gh_fg_default"
+    },
+    "textMuted": {
+      "dark": "gh_fg_muted",
+      "light": "gh_fg_muted"
+    },
+    "background": {
+      "dark": "gh_canvas_default",
+      "light": "gh_canvas_default"
+    },
+    "backgroundPanel": {
+      "dark": "gh_canvas_inset",
+      "light": "gh_canvas_inset"
+    },
+    "backgroundElement": {
+      "dark": "gh_canvas_subtle",
+      "light": "gh_canvas_subtle"
+    },
+    "border": {
+      "dark": "gh_border_default",
+      "light": "gh_border_default"
+    },
+    "borderActive": {
+      "dark": "gh_orange_2",
+      "light": "gh_orange_2"
+    },
+    "borderSubtle": {
+      "dark": "gh_border_muted",
+      "light": "gh_border_muted"
+    },
+    "diffAdded": {
+      "dark": "gh_green_1",
+      "light": "gh_green_1"
+    },
+    "diffRemoved": {
+      "dark": "gh_red_1",
+      "light": "gh_red_1"
+    },
+    "diffContext": {
+      "dark": "gh_fg_muted",
+      "light": "gh_fg_muted"
+    },
+    "diffHunkHeader": {
+      "dark": "gh_purple_1",
+      "light": "gh_purple_1"
+    },
+    "diffHighlightAdded": {
+      "dark": "gh_green_1",
+      "light": "gh_green_1"
+    },
+    "diffHighlightRemoved": {
+      "dark": "gh_red_1",
+      "light": "gh_red_1"
+    },
+    "diffAddedBg": {
+      "dark": "#23863626",
+      "light": "#23863626"
+    },
+    "diffRemovedBg": {
+      "dark": "#da363326",
+      "light": "#da363326"
+    },
+    "diffContextBg": {
+      "dark": "gh_canvas_inset",
+      "light": "gh_canvas_inset"
+    },
+    "diffLineNumber": {
+      "dark": "gh_fg_subtle",
+      "light": "gh_fg_subtle"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "#2ea04366",
+      "light": "#2ea04366"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "#f8514966",
+      "light": "#f8514966"
+    },
+    "markdownText": {
+      "dark": "gh_fg_default",
+      "light": "gh_fg_default"
+    },
+    "markdownHeading": {
+      "dark": "gh_blue_2",
+      "light": "gh_blue_2"
+    },
+    "markdownLink": {
+      "dark": "gh_blue_1",
+      "light": "gh_blue_1"
+    },
+    "markdownLinkText": {
+      "dark": "gh_accent_fg",
+      "light": "gh_accent_fg"
+    },
+    "markdownCode": {
+      "dark": "gh_blue_2",
+      "light": "gh_blue_2"
+    },
+    "markdownBlockQuote": {
+      "dark": "gh_green_1",
+      "light": "gh_green_1"
+    },
+    "markdownEmph": {
+      "dark": "gh_fg_default",
+      "light": "gh_fg_default"
+    },
+    "markdownStrong": {
+      "dark": "gh_fg_default",
+      "light": "gh_fg_default"
+    },
+    "markdownHorizontalRule": {
+      "dark": "gh_border_default",
+      "light": "gh_border_default"
+    },
+    "markdownListItem": {
+      "dark": "gh_orange_1",
+      "light": "gh_orange_1"
+    },
+    "markdownListEnumeration": {
+      "dark": "gh_orange_1",
+      "light": "gh_orange_1"
+    },
+    "markdownImage": {
+      "dark": "gh_blue_2",
+      "light": "gh_blue_2"
+    },
+    "markdownImageText": {
+      "dark": "gh_accent_fg",
+      "light": "gh_accent_fg"
+    },
+    "markdownCodeBlock": {
+      "dark": "gh_fg_default",
+      "light": "gh_fg_default"
+    },
+    "syntaxComment": {
+      "dark": "gh_gray_1",
+      "light": "gh_gray_1"
+    },
+    "syntaxKeyword": {
+      "dark": "gh_red_2",
+      "light": "gh_red_2"
+    },
+    "syntaxFunction": {
+      "dark": "gh_purple_1",
+      "light": "gh_purple_1"
+    },
+    "syntaxVariable": {
+      "dark": "gh_fg_default",
+      "light": "gh_fg_default"
+    },
+    "syntaxString": {
+      "dark": "gh_blue_1",
+      "light": "gh_blue_1"
+    },
+    "syntaxNumber": {
+      "dark": "gh_blue_2",
+      "light": "gh_blue_2"
+    },
+    "syntaxType": {
+      "dark": "gh_blue_2",
+      "light": "gh_blue_2"
+    },
+    "syntaxOperator": {
+      "dark": "gh_red_2",
+      "light": "gh_red_2"
+    },
+    "syntaxPunctuation": {
+      "dark": "gh_fg_default",
+      "light": "gh_fg_default"
+    },
+    "syntaxConstant": {
+      "dark": "gh_blue_2",
+      "light": "gh_blue_2"
+    }
+  }
+}
